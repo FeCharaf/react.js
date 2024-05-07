@@ -3,22 +3,14 @@ import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
 import Frase from "./components/Frase";
 import List from "./components/List";
+import Evento from "./components/Evento";
 
 function App() {
   const nome = "Maria";
   return (
     <div className="App">
-      <Frase />
-      <SayMyName nome="Felipe" />
-      <SayMyName nome="João" />
-      <SayMyName nome={nome} />
-      <Pessoa
-        nome="Felipe"
-        idade="21"
-        profissao="Programador"
-        foto="https://via.placeholder.com/150"
-      />
-      <List />
+      <h1>Testando eventos</h1>
+      <Evento />
     </div>
   );
 }
