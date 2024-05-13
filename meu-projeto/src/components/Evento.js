@@ -1,6 +1,6 @@
 function Evento() {
 
-    function meuEvento() {
+    function meuEvento() { //Método
         console.log("Fui ativado!")
     }
 
