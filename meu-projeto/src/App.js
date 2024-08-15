@@ -4,14 +4,16 @@ import "./App.css";
 // import Frase from "./components/Frase";
 // import List from "./components/List";
 // import Evento from "./components/Evento";
+import Condicional from "./components/Condicional";
 import Form from "./components/Form";
 
 function App() {
   const nome = "Maria";
   return (
     <div className="App">
-      <h1>Testando formulário</h1>
-      <Form />
+      <h1>Renderização Condicional</h1>
+      <Condicional />
+    
     </div>
   );
 }
